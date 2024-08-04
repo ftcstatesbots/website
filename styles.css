@@ -104,3 +104,120 @@ body {
         transform: translateY(0);
     }
 }
+
+/* Existing styles...
+
+#about {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
+
+#about img {
+    border-radius: 5px;
+}
+
+#team {
+    background: #fff;
+    padding: 60px 0;
+}
+
+#team h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#team p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    margin-bottom: 30px;
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.card-body {
+    background: #f8f9fa;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+} */
+
+/* Existing styles... */
+
+#about {
+    text-align: center;
+}
+#about img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+#about h3 {
+    margin-top: 20px;
+}
+#about p {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#about-team {
+    background: linear-gradient(to bottom right, #ff8c00, #000);
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#about-team h2, #about-team p {
+    color: #fff;
+}
+
+#about-team .card {
+    border: none;
+    background: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about-team .card img {
+    border-radius: 5px;
+}
+
+#about-team .card-body {
+    padding: 20px;
+}
+
+#about-team .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+#about-team .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}

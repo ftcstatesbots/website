@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About & Team - FTC Robotics Team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff6f00, #000000); /* Darker orange and black gradient */
+            color: #fff;
+        }
+        .team-member {
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden; /* Ensure content doesn't overflow */
+            height: 500px; /* Set a fixed height for uniform boxes */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .team-member img {
+            border-radius: 10px; /* Rounded corners for images */
+            width: 100%; /* Make image fill the width of the card */
+            height: 60%; /* Adjust height to fit the card */
+            object-fit: cover; /* Ensure image covers the area */
+            object-position: top; /* Align the face to the bottom of the container */
+            margin-bottom: 20px; /* Space between image and text */
+            margin-top: auto; /* Push image down to lower part of the card */
+        }
+
+        .team-member .card-body {
+            text-align: center;
+            flex: 1; /* Allow the text section to grow and fill the remaining space */
+        }
+
+        .team-member:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<!-- Header -->
+<header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">FTC Team</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!-- About Us Section -->
+<section id="about" class="container py-5 mt-5">
+    <div class="text-center mb-5">
+        <h2 data-aos="zoom-in">About Us</h2>
+        <p data-aos="zoom-in">We are a passionate FTC Robotics team dedicated to innovation and excellence in robotics competitions.</p>
+    </div>
+    <div class="row align-items-center">
+        <div class="col-lg-6 mb-4">
+            <img src="images/team-photo.jpg" class="img-fluid" alt="Team Photo">
+        </div>
+        <div class="col-lg-6">
+            <h3>Our Mission</h3>
+            <p>We aim to inspire the next generation of engineers and innovators through hands-on experience in robotics. Our team is committed to learning, collaboration, and achieving great results in every competition.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section id="team" class="container py-5">
+    <div class="text-center mb-5">
+        <h2 data-aos="zoom-in">Meet Our Team</h2>
+    </div>
+    <div class="row">
+        <!-- Team Member 1 -->
+        <div class="col-md-4 mb-4" data-aos="flip-left">
+            <div class="card team-member text-center">
+                <img src="images/member1.jpg" class="card-img-top img-fluid" alt="Team Member 1">
+                <div class="card-body">
+                    <h5 class="card-title">John Doe</h5>
+                    <p class="card-text">Team Captain</p>
+                    <p class="card-text">John leads the team with a focus on strategic planning and overall project management. He ensures everyone is on track and motivated.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-md-4 mb-4" data-aos="flip-left">
+            <div class="card team-member text-center">
+                <img src="images/member2.jpg" class="card-img-top img-fluid" alt="Team Member 2">
+                <div class="card-body">
+                    <h5 class="card-title">Jane Smith</h5>
+                    <p class="card-text">Lead Programmer</p>
+                    <p class="card-text">Jane is the coding genius behind our projects, responsible for developing and implementing software solutions.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="col-md-4 mb-4" data-aos="flip-left">
+            <div class="card team-member text-center">
+                <img src="images/member3.jpg" class="card-img-top img-fluid" alt="Team Member 3">
+                <div class="card-body">
+                    <h5 class="card-title">Emily Johnson</h5>
+                    <p class="card-text">Mechanical Engineer</p>
+                    <p class="card-text">Emily designs and builds the mechanical systems, ensuring everything runs smoothly and efficiently.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 4 -->
+        <div class="col-md-4 mb-4" data-aos="flip-left">
+            <div class="card team-member text-center">
+                <img src="images/member4.jpg" class="card-img-top img-fluid" alt="Team Member 4">
+                <div class="card-body">
+                    <h5 class="card-title">Michael Brown</h5>
+                    <p class="card-text">Electrical Engineer</p>
+                    <p class="card-text">Michael handles all things electrical, from wiring to power management, ensuring our robots are powered and responsive.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 5 -->
+        <div class="col-md-4 mb-4" data-aos="flip-left">
+            <div class="card team-member text-center">
+                <img src="images/member5.jpg" class="card-img-top img-fluid" alt="Team Member 5">
+                <div class="card-body">
+                    <h5 class="card-title">Jessica Williams</h5>
+                    <p class="card-text">Software Developer</p>
+                    <p class="card-text">Jessica works on developing the software that drives our robots, focusing on AI and machine learning.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 6 -->
+        <div class="col-md-4 mb-4" data-aos="flip-left">
+            <div class="card team-member text-center">
+                <img src="images/member6.jpg" class="card-img-top img-fluid" alt="Team Member 6">
+                <div class="card-body">
+                    <h5 class="card-title">Daniel Taylor</h5>
+                    <p class="card-text">Designer</p>
+                    <p class="card-text">Daniel brings creativity to our team, designing the look and feel of our robots and ensuring they are both functional and stylish.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 7 -->
+        <div class="col-md-4 mb-4" data-aos="flip-left">
+            <div class="card team-member text-center">
+                <img src="images/member7.jpg" class="card-img-top img-fluid" alt="Team Member 7">
+                <div class="card-body">
+                    <h5 class="card-title">Megan Thomas</h5>
+                    <p class="card-text">Marketing Lead</p>
+                    <p class="card-text">Megan handles all our marketing efforts, ensuring we have a strong presence in the community and online.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 8 -->
+        <div class="col-md-4 mb-4" data-aos="flip-left">
+            <div class="card team-member text-center">
+                <img src="images/member8.jpg" class="card-img-top img-fluid" alt="Team Member 8">
+                <div class="card-body">
+                    <h5 class="card-title">Chris Lee</h5>
+                    <p class="card-text">Project Manager</p>
+                    <p class="card-text">Chris keeps our projects on track, managing timelines, resources, and ensuring smooth collaboration.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 9 -->
+        <div class="col-md-4 mb-4" data-aos="flip-left">
+            <div class="card team-member text-center">
+                <img src="images/member9.jpg" class="card-img-top img-fluid" alt="Team Member 9">
+                <div class="card-body">
+                    <h5 class="card-title">Samantha Harris</h5>
+                    <p class="card-text">Content Creator</p>
+                    <p class="card-text">Samantha creates engaging content for our website and social media, helping to spread the word about our team’s achievements.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 10 -->
+        <div class="col-md-4 mb-4" data-aos="flip-left">
+            <div class="card team-member text-center">
+                <img src="images/member10.jpg" class="card-img-top img-fluid" alt="Team Member 10">
+                <div class="card-body">
+                    <h5 class="card-title">James Martin</h5>
+                    <p class="card-text">Strategy Analyst</p>
+                    <p class="card-text">James analyzes competition strategies and helps the team develop effective tactics for our matches.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 11 -->
+        <div class="col-md-4 mb-4" data-aos="flip-left">
+            <div class="card team-member text-center">
+                <img src="images/member11.jpg" class="card-img-top img-fluid" alt="Team Member 11">
+                <div class="card-body">
+                    <h5 class="card-title">Olivia Anderson</h5>
+                    <p class="card-text">Researcher</p>
+                    <p class="card-text">Olivia conducts research on new technologies and methods, ensuring our team stays at the cutting edge of robotics.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 12 -->
+        <div class="col-md-4 mb-4" data-aos="flip-left">
+            <div class="card team-member text-center">
+                <img src="images/member12.jpg" class="card-img-top img-fluid" alt="Team Member 12">
+                <div class="card-body">
+                    <h5 class="card-title">Ethan Martinez</h5>
+                    <p class="card-text">Hardware Specialist</p>
+                    <p class="card-text">Ethan focuses on the hardware aspects of our robots, ensuring all components are functioning correctly and efficiently.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2024 FTC Robotics Team. All rights reserved.</p>
+</footer>
+
+<!-- Include Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize AOS
+        AOS.init({
+            duration: 1200,
+        });
+    });
+</script>
+</body>
+</html>
